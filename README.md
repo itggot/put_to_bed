@@ -8,6 +8,12 @@ De behöver din hjälp med att skapa en funktion de kan använda för att natta 
 
 Skapa en funktion `put_to_bed` som **tar ett namn som argument** och **returnerar** "*Nighty Nighty, {namnet}!*"
 
+### Flödesschema ###
+
+Innan du börjar koda ska du skapa ett flödesschema för programmet. 
+
+Testa flödesschemat med penna och papper.
+
 ### Exempel ###
 
 ```ruby
@@ -15,13 +21,11 @@ Skapa en funktion `put_to_bed` som **tar ett namn som argument** och **returnera
     #=> 'Nighty nighty, Billy-Bob!'
 ```
 
-### Flödesschema ###
+### Bonusbana ###
 
-Innan du börjar koda ska du skapa ett flödesschema för programmet. 
+Vad händer om man skickar in en tom `String` som argument?
 
-Testa flödesschemat med penna och papper.
-
-När du känner att du har ett fungerande flödesschema, be läraren att kolla på det.
+Uppdatera programmet så det hanterar felaktig input.
 
 ### Länkar ###
 
