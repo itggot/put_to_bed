@@ -17,9 +17,17 @@ Testa flödesschemat med penna och papper.
 ### Exempel ###
 
 ```ruby
-    put_to_bed(name: 'Billy-Bob')
+   
+	puts put_to_bed(name: 'Billy-Bob')
     #=> 'Nighty nighty, Billy-Bob!'
 ```
+
+### Tester ###
+
+Testerna finns i `test/test_put_to_bed.rb`
+
+Kör testerna (från uppgiftens rotmapp): `ruby test/test_put_to_bed.rb`
+
 
 ### Bonusbana ###
 
