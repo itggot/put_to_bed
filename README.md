@@ -26,7 +26,7 @@ Testa flödesschemat med penna och papper.
 
 Testerna finns i `test/test_put_to_bed.rb`
 
-Kör testerna (från uppgiftens rotmapp): `ruby test/test_put_to_bed.rb`
+Kör testerna (från uppgiftens rotmapp): `ruby test\test_put_to_bed.rb`
 
 
 ### Bonusbana ###
