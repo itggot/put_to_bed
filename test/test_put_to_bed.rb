@@ -13,7 +13,7 @@ describe 'put_to_bed' do
     begin
         put_to_bed(name: 'Irrelevant')
     rescue ArgumentError
-        flunk("Missing keyword argument: name")
+        flunk('Missing keyword argument: name')
     end
   end
 
