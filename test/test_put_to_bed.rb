@@ -10,6 +10,11 @@ describe 'put_to_bed' do
   it 'takes name as a keyword argument' do
     proc { put_to_bed }.must_raise ArgumentError
     proc { put_to_bed('non-keyword-argument') }.must_raise ArgumentError
+    begin
+        put_to_bed(name: 'Irrelevant')
+    rescue ArgumentError
+        flunk('Missing keyword argument: name')
+    end
   end
 
   it 'returns a string' do
